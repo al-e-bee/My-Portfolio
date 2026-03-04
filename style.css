@@ -77,49 +77,46 @@ body{
     flex-grow: 1;
 }
 
-.portfolio *{
-    margin-bottom: 0;
-    padding-bottom: 20px;
+.portfolio h2, .project h3, .project p{
+    margin-bottom: 15px;
+    
 }
 
 .project-grid{
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 40px;
+    padding: 20px 0;
 }
 
 .project{
     background-color: rgb(243, 235, 225);
     width: 300px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px grey;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
     overflow: hidden;
-    padding: 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease,
+    background-color 0.3s;
+    transform-origin: center;
 }
 
-.project p{
-    margin: 0;
+.project:hover{
+    transform: scale(1.05);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    filter:brightness(1.03);
+    z-index: 10;
 }
+
 .project img{
-    width: 300px;
+    width: 100%;
     height: 200px;
-}
-
-.project img.image{
     object-fit: cover;
+    display: block;
 }
 
-.footer{
-    background-color: rgb(43, 104, 56);
+.project h3, .project p{
+    padding: 10px 15px;
     margin: 0;
-}
-
-.footer p{
-    margin:0;
-    padding:20px 0;
-}
-
-h2, h3{
-    margin-top: 0;
 }
