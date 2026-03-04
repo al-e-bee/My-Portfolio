@@ -47,10 +47,30 @@ body{
     background-color: rgb(128, 168, 122);
 }
 
-img{
+.hero-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.hero p{
+    flex: 1;
+    max-width: 500px;
+    text-align: left;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.hero img{
     width: 200px;
     height: 200px;
+    border-radius: 50%;
 }
+
 .portfolio{
     background-color: rgb(39, 73, 42);
     padding: 50px 20px;
@@ -75,6 +95,19 @@ img{
     border-radius: 10px;
     box-shadow: 0 4px 8px grey;
     overflow: hidden;
+    padding: 0;
+}
+
+.project p{
+    margin: 0;
+}
+.project img{
+    width: 300px;
+    height: 200px;
+}
+
+.project img.image{
+    object-fit: cover;
 }
 
 .footer{
@@ -86,7 +119,7 @@ img{
     margin:0;
     padding:20px 0;
 }
-h2{
+
+h2, h3{
     margin-top: 0;
-    padding-top: 20px;
 }
