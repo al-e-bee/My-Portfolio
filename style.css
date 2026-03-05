@@ -50,13 +50,16 @@ body{
 
 
 .hero{
-    background-color: #EAE0D5;
+    background: linear-gradient(to bottom, #EAE0D5, #f3ebe1);
+    padding: 80px 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
     
 }
 
-h1{
-    font-weight: bold;
-    text-transform: uppercase;
+.hero h1{
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
     color: #22333B;
 }
 
@@ -64,10 +67,9 @@ h1{
     display:flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
-    max-width: 1000px;
+    gap: 80px;
+    max-width: 1100px;
     margin: 0 auto;
-    padding: 40px;
 }
 
 .hero p{
@@ -80,14 +82,28 @@ h1{
 }
 
 .hero img{
-    width: 100px;
-    height: 100px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     object-fit: cover;
-    box-shadow: 0 10px 25px rgba(34, 51, 59, 0.3);
-    border: 2px solid white;
+    box-shadow: 0 20px 40px rgba(34, 51, 59, 0.2);
+    border: 8px solid white;
 }
 
+.cta-button{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #22333B;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+}
+
+.cta-button:hover{
+    background-color: #4b7285;
+}
 .portfolio{
     background-color: #EAE0D5;
     padding: 50px 20px;
