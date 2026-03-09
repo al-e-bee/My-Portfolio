@@ -1,33 +1,36 @@
-ASSIGNMENT: Create a Personal Portfolio Landing Page
+# Project: Personal Portfolio Landing Page
 
-PROJECT GOAL: To build a landing page to introduce myself and showcase the web development projects I create in my Software Engineering course at Coding Temple.
+## 🎯 Project Goal
 
-FEATURES:
-\*\* Sticky Navigation: A responsive top bar with hover effects on links
+The goal of this project is to build a professional landing page to introduce myself and showcase the web development projects I create during my Software Engineering course at Coding Temple.
 
-\*\* Hero Section: A professional and polished welcome area which
-includes a bio and image
+## ✨ Features
 
-\*\*Project Grid: A display for three future projects using CSS Flexbox
+- **Sticky Navigation:** A responsive top bar with hover effects on links for easy site navigation.
+- **Hero Section:** A professional and polished welcome area including a personalized bio and image.
+- **Project Grid:** A clean display for three future projects using **CSS Flexbox**.
+- **Interactive Cards:** Engaging hover effects that utilize `scale` and `box-shadow` to simulate a 3D lift effect.
+- **Responsive Design:** Fully optimized for seamless viewing on both desktop and mobile devices.
 
-\*\*Interactive Cards: Hover effects that use 'scale' and 'box-shadow' to simulate a 3D lift effect
+## 🛠 Technologies Used
 
-\*\*Responsive Design: Made for viewing on both desktop and mobile devices
+- **HTML5:** Semantic structure featuring `<nav>`, `<section>`, and `<footer>` elements.
+- **CSS3:** Custom styling, Flexbox layout, and smooth transitions.
+- **Google Gemini:** Utilized for debugging, refactoring, and learning best practices in code optimization.
+- **FontAwesome:** Professional social media and contact iconography.
+- **Coolors.co:** Used to generate a cohesive and aesthetically pleasing color palette.
+- **Pexels.com:** High-quality temporary imagery used for project placeholders.
 
-TECHNOLOGIES USED:
-\*\*HTML 5: Semantic structure featuring a nav, section, and footer
+## 🚀 How to View
 
-\*\*CSS3: Custom styling, Flexbox, and transitions.
+1. **Clone this repository** to your local machine.
+2. Open the project folder in **VS Code**.
+3. Open `index.html` using the **Live Server** extension to view the site in your browser.
 
-\*\*Google Gemini: Utilized for debugging and learning best practices in updating my code.
+## 👤 Author
 
-\*\*FontAwesome: Social media icons
+**Ali Baker** [GitHub Profile](https://github.com/al-e-bee)
 
-\*\*Coolers.co: Generated pleasing color palette
+## ⚖️ License
 
-\*\*Pexels.com: Temporary images used until I complete more projects to showcase
-
-HOW TO VIEW: 1. Clone this repository. 2. Open 'index.html' using the Live Server extension in VS Code.
-
-AUTHOR:
-\*\* Ali Baker (https://github.com/al-e-bee)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
