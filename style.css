@@ -36,16 +36,17 @@ body{
     font-weight: bold;
 }
 
-.nav-links a, .footer-links a{
+.nav-links a{
     display: inline-block;
     color: #22333B;
-    text-transform: uppercase;
     text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
     transition: transform 0.2s ease, color 0.2s ease;
     backface-visibility: hidden;
 }
 
-.nav-links a:hover, .footer-links a:hover{
+.nav-links a:hover{
     color: #4b7285;
     text-decoration: none;
     transform: scale(1.1);
@@ -227,6 +228,20 @@ footer{
 .footer-links{
     display: flex;
     gap: 15px;
+}
+
+.footer-links a{
+    display: inline-block;
+    color: #22333B;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: transform 0.2s ease, color 0.2s ease;
+    backface-visibility: hidden;
+}
+
+.footer-links a:hover{
+    transform: scale(1.1);
+    color: #4b7285;
 }
 
 .footer-content a{
